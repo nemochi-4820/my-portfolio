@@ -1,0 +1,73 @@
+.body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+
+.area {
+    width: 100vw;
+    height: 820px;
+    background-color:rgb(152, 221, 250);
+    position: relative;
+}
+
+.title {
+        font-size: 65px;
+        position: absolute;
+        top: 125px;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
+.work1 {
+    top: 250px;
+    margin-left: 200px;
+    width: 30%;
+    height: 370px;
+    border: 1.5px solid;
+    position: absolute;
+}
+
+.image {
+    width: 432px;
+    height: 250px;
+}
+
+.desc1 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.more1 {
+    font-size: 25px;
+    margin-left: 300px;
+    display: inline-block;
+    padding: 5px 10px;
+    background: rgb(248, 255, 110);
+}
+
+.more1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.more1:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.work2{
+    top: 250px;
+    margin-left: 800px;
+    width: 30%;
+    height: 370px;
+    border: 1.5px solid;
+    position: absolute;
+}
+
+.desc2{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 150px;
+}

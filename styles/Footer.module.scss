@@ -1,0 +1,44 @@
+.foot {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    width: 270px;
+	margin: auto;
+}
+
+.item {
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.git {
+    padding: 0 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.twit {
+    padding: 0 10px;
+    color: rgb(82, 150, 238);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.inst {
+    padding: 0 10px;
+    color: rgb(216, 73, 216);
+    &:hover {
+        cursor: pointer;
+    }
+}
